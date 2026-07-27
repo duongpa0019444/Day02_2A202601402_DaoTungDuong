@@ -46,32 +46,32 @@ Dưới đây là bảng scan 8 problems thực tế trong công việc của La
 **Problem 1 câu:**  
 Lan mất khoảng 8-12 tiếng mỗi tuần để đọc thủ công hàng chục CV và viết bản nhận xét tóm tắt (shortlist narrative) đối chiếu với JD gửi cho Hiring Manager, dẫn đến chậm phản hồi cho ứng viên và kéo dài thời gian tuyển dụng.
 
-**Actor:**  
+**Actor (đối tượng ảnh hưởng):**  
 Lan, Talent Acquisition Specialist chịu trách nhiệm sàng lọc hồ sơ ứng viên Tech.
 
 **Thời điểm / bối cảnh:**  
 Mỗi ngày khi có CV mới đổ về từ LinkedIn và TopCV.
 
-**Current workflow:**
+**Current workflow (quy trình hiện tại):**
 1. Tải CV của ứng viên dưới dạng PDF/Docx về máy.
 2. Mở file JD vị trí tương ứng để đối chiếu tiêu chí (Kỹ năng, Kinh nghiệm, Dự án liên quan).
 3. Đọc kỹ CV và viết nhận xét chi tiết (điểm mạnh, điểm yếu, mức độ phù hợp) vào bản tóm tắt.
 4. Copy nhận xét gửi qua kênh Slack cho Hiring Manager duyệt.
 5. Gửi email phản hồi cho ứng viên (từ chối hoặc hẹn phỏng vấn).
 
-**Bottleneck:**  
+**Bottleneck (nút thắt):**  
 Bước 3 — Viết bản nhận xét tóm tắt chi tiết cho từng hồ sơ mất trung bình 7-10 phút/CV, yêu cầu độ tập trung cao và dễ bị mệt mỏi về cuối ngày.
 
-**Impact:**  
+**Impact (tác động):**  
 Mất 8-12 tiếng/tuần cho 1 recruiter. Thời gian phản hồi ứng viên vòng hồ sơ bị kéo dài lên 5-7 ngày. Tỷ lệ ứng viên rút khỏi quy trình tuyển dụng tăng vì chờ đợi quá lâu.
 
-**Success metric:**  
+**Success metric (chỉ số đo lường thành công):**  
 Giảm tổng thời gian xử lý mỗi CV từ 15 phút xuống dưới 3 phút (bao gồm cả thời gian review của Lan). Thời gian gửi CV shortlist sang Hiring Manager giảm từ 2 ngày xuống còn dưới 12 giờ kể từ khi ứng viên ứng tuyển.
 
-**Non-AI alternative:**  
+**Non-AI alternative (giải pháp thay thế không dùng AI):**  
 Dùng hệ thống ATS lọc từ khóa tự động. Tuy nhiên, cách này chỉ lọc được từ khóa cứng (keywords), dễ bỏ sót các ứng viên viết CV theo cách khác, và không tạo ra được bản nhận xét (narrative) chi tiết gửi Hiring Manager.
 
-**AI hypothesis:**  
+**AI hypothesis (giả thuyết sử dụng AI):**  
 AI sẽ đọc nội dung CV và JD, đối chiếu các yêu cầu và tự động soạn thảo bản nhận xét tóm tắt (shortlist narrative) theo các tiêu chí (Điểm mạnh, Điểm yếu, Đánh giá chung). Lan chỉ đóng vai trò review và chỉnh sửa bản thảo.
 
 **Quick gut:**  
