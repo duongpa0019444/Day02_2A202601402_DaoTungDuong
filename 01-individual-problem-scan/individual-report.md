@@ -1,4 +1,18 @@
-# 01 — Individual Problem Scan (Case 1: Tuyển dụng / HR)
+# 01 — Individual Problem Scan (Case Tuyển dụng / HR)
+
+Case ví dụ: **Sàng lọc và tóm tắt hồ sơ ứng viên**
+
+Nhân vật ví dụ: Lan, Talent Acquisition Specialist tại một công ty công nghệ quy mô 150 người. Mỗi tuần Lan nhận khoảng 50-70 CV từ LinkedIn và TopCV cho các vị trí Software Engineer. Lan phải lọc ra những ứng viên phù hợp để gửi cho các Hiring Manager (Trưởng bộ phận kỹ thuật) duyệt vòng hồ sơ.
+
+## Vì sao đây là ví dụ tốt?
+- Có actor cụ thể (Lan).
+- Có workflow lặp lại hằng ngày/hằng tuần.
+- Có bottleneck rõ (bước đọc CV và viết shortlist narrative).
+- Có metric thời gian rõ ràng (giảm từ 15 phút xuống dưới 3 phút/CV).
+- Có thể so sánh Rule / Workflow / Agent rõ ràng.
+- Có thể vẽ before/after workflow chi tiết.
+
+---
 
 ## Scan rộng
 
